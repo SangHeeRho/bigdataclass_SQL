@@ -1,0 +1,9 @@
+SQL> drop table MemberT01;
+
+Table dropped.
+
+SQL> select*from Scott;
+select*from Scott
+            *
+ERROR at line 1:
+ORA-00942: table or view does not exist

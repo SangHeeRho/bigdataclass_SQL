@@ -1,0 +1,20 @@
+SQL> drop table dept;
+
+Table dropped.
+
+SQL> create table dept)
+  2
+SQL> create table dept(
+  2  deptno number(3),
+  3  dname varchar2(10),
+  4  loc varchar2(20));
+
+Table created.
+
+SQL> insert into dept values(10,'醚公何','辑匡');
+
+1 row created.
+
+SQL> insert into dept values(10,'醚公何','辑匡1');
+
+1 row created.

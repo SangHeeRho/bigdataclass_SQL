@@ -1,0 +1,92 @@
+SQL> alter table member01
+  2  modify mem_notice varchar2(30);
+
+Table altered.
+
+SQL> select*from member01;
+
+ORANGE                                   ID                                       PW                                                               EMAIL
+---------------------------------------- ---------------------------------------- ------------------------------------------------------------ ----------------------------------------
+PWW                                                          SCH
+                      MEM_NOTICE
+------------------------------------------------------------ ---------------------------------------- ------------------------------------------------------------
+오렌지                                   orange                                   4321                                                             orange@test.com
+032                                                          재능대학교
+
+장미                                     red                                      1234                                                             red@test.com
+044                                                          홍익대학교
+
+개나리                                   yellow                                   1234                                                             yellow@test.com
+032                                                          재능대학교
+
+소나무                                   green                                    1234                                                             green@test.com
+044                                                          홍익대학교
+
+바다                                     blue                                     1234                                                             blue@test.com
+044                                                          홍익대학교
+
+
+SQL> desc member01;
+ Name
+                                   Null?    Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ ORANGE
+                                            VARCHAR2(20)
+ ID
+                                            VARCHAR2(20)
+ PW
+                                            VARCHAR2(30)
+ EMAIL
+                                            VARCHAR2(20)
+ PWW
+                                            VARCHAR2(30)
+ SCH
+                                            VARCHAR2(20)
+ MEM_NOTICE
+                                            VARCHAR2(30)
+
+SQL> alter table member01
+  2  modify mem_notice varchar2(20);
+
+Table altered.
+
+SQL> desc member01;
+ Name
+                                   Null?    Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ ORANGE
+                                            VARCHAR2(20)
+ ID
+                                            VARCHAR2(20)
+ PW
+                                            VARCHAR2(30)
+ EMAIL
+                                            VARCHAR2(20)
+ PWW
+                                            VARCHAR2(30)
+ SCH
+                                            VARCHAR2(20)
+ MEM_NOTICE
+                                            VARCHAR2(20)
+
+SQL> alter table member01
+  2  drop column mem_notice;
+
+Table altered.
+
+SQL> desc member01;
+ Name
+                                   Null?    Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ ORANGE
+                                            VARCHAR2(20)
+ ID
+                                            VARCHAR2(20)
+ PW
+                                            VARCHAR2(30)
+ EMAIL
+                                            VARCHAR2(20)
+ PWW
+                                            VARCHAR2(30)
+ SCH
+                                            VARCHAR2(20)

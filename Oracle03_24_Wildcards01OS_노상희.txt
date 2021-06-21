@@ -1,0 +1,46 @@
+C:\Windows>dir sys*
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: B0EF-BD37
+
+ C:\Windows 디렉터리
+
+2019-03-19  오후 01:52    <DIR>          System
+2015-07-10  오후 08:02               219 system.ini
+2021-06-08  오전 12:44    <DIR>          System32
+2019-03-19  오후 09:27    <DIR>          SystemApps
+2021-05-31  오전 12:10    <DIR>          SystemResources
+2021-06-07  오후 05:05    <DIR>          SysWOW64
+               1개 파일                 219 바이트
+               5개 디렉터리   6,103,732,224 바이트 남음
+
+C:\Windows>dir ?e*
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: B0EF-BD37
+
+ C:\Windows 디렉터리
+
+2021-05-02  오후 02:30    <DIR>          debug
+2019-09-08  오전 01:14    <DIR>          Help
+2021-05-30  오후 11:38         1,060,352 HelpPane.exe
+2013-06-03  오후 03:31            84,474 keris.bmp
+2019-03-19  오후 01:52    <DIR>          Performance
+2021-01-19  오전 10:11           358,400 regedit.exe
+2019-09-08  오전 02:08    <DIR>          Registration
+2019-03-19  오후 01:52    <DIR>          rescache
+2014-11-10  오후 01:10             4,350 rescue_inisb.reg
+2016-07-09  오후 04:27             2,364 rescue_inisb_64.reg
+2014-11-10  오후 01:10             2,828 rescue_ocx.reg
+2016-07-09  오후 04:27             2,522 rescue_ocx_64.reg
+2019-09-08  오전 01:50    <DIR>          Resources
+2019-03-19  오후 01:52    <DIR>          security
+2019-09-08  오전 01:14    <DIR>          ServiceProfiles
+2020-05-11  오후 03:16    <DIR>          ServiceState
+2021-05-31  오전 12:09    <DIR>          servicing
+2019-09-08  오전 01:50    <DIR>          Setup
+2021-06-07  오후 09:51            32,067 setupact.log
+2021-05-06  오후 07:26                 0 setuperr.log
+2021-06-08  오후 05:58    <DIR>          Temp
+2021-05-31  오전 12:10    <DIR>          TextInput
+2019-03-19  오후 01:52    <DIR>          Web
+               9개 파일           1,547,357 바이트
+              14개 디렉터리   6,103,625,728 바이트 남음

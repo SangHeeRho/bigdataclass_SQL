@@ -1,0 +1,30 @@
+SQL> select sch from member01;
+
+SCH
+----------------------------------------
+재능대학교
+홍익대학교
+재능대학교
+홍익대학교
+홍익대학교
+
+SQL> select distinct sch from membert01;
+select distinct sch from membert01
+                *
+ERROR at line 1:
+ORA-00904: "SCH": invalid identifier
+
+
+SQL> select distinct sch from member91;
+select distinct sch from member91
+                         *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+
+SQL> select distinct sch from member01;
+
+SCH
+----------------------------------------
+재능대학교
+홍익대학교

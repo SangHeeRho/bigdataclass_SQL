@@ -1,0 +1,10 @@
+SQL> create user angel identified by angel;
+
+User created.
+
+SQL> desc ALL_USERS;
+ Name                                                                                                              Null?    Type
+ ----------------------------------------------------------------------------------------------------------------- -------- ----------------------------------------------------------------------------
+ USERNAME                                                                                                          NOT NULL VARCHAR2(30)
+ USER_ID                                                                                                           NOT NULL NUMBER
+ CREATED                                                                                                           NOT NULL DATE

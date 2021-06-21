@@ -1,0 +1,25 @@
+SQL> select LOWER('Korea') from dual;
+
+LOWER('KOR
+----------
+korea
+
+SQL> select UPPER('Korea') from dual;
+
+UPPER('KOR
+----------
+KOREA
+
+SQL> select initcap('i am a boy') from dual;
+
+INITCAP('IAMABOY')
+--------------------
+I Am A Boy
+
+SQL> selct length('Korea') from dual;
+SP2-0734: unknown command beginning "selct leng..." - rest of line ignored.
+SQL> select length('Korea') from dual;
+
+LENGTH('KOREA')
+---------------
+              5
